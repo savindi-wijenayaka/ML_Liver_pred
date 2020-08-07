@@ -1,4 +1,4 @@
-# Mechanic Prediction System
+# Liver Disease Prediction System
 
 ### Setup - Local
 
