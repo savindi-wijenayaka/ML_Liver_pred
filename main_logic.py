@@ -37,4 +37,4 @@ def service(input_json):
   sample_df = pd.DataFrame(input_json, index=[0])
   sample_df = clean_data(sample_df)
   prediction_prob = model_rfc.predict_proba(sample_df)
-  return prediction_prob[0][0]
+  return prediction_prob[0][1]
